@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: java-kms
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
